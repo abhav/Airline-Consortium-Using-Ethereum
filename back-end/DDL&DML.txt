@@ -1,0 +1,50 @@
+DROP TABLE aa_members;
+CREATE TABLE aa_members(
+	memberid NUMBER(6) Primary key,
+  	firstname VARCHAR(30),
+  	lastname VARCHAR(30),
+  	emailid VARCHAR2(50),
+  	password VARCHAR2(50)
+  	);
+
+INSERT INTO aa_members VALUES(1000, 'Piyush', 'Wani', 'pwani@buffalo.edu', 'pass');
+
+INSERT INTO aa_members VALUES(1001, 'Vishakha', 'Wani', 'vwani@buffalo.edu', 'pass');
+
+commit;
+
+DROP TABLE ab_members;
+CREATE TABLE ab_members(
+	memberid NUMBER(6) Primary key,
+  	firstname VARCHAR(30),
+  	lastname VARCHAR(30),
+  	emailid VARCHAR2(50),
+  	password VARCHAR2(50)
+  	);
+
+INSERT INTO ab_members VALUES(1000, 'Abhav', 'Luthra', 'aluthra@buffalo.edu', 'pass');
+
+INSERT INTO ab_members VALUES(1001, 'Amanda', 'Cerney', 'acerney@buffalo.edu', 'pass');
+
+commit;
+
+
+DROP TABLE airline_common_transactions;
+CREATE TABLE airline_common_transactions(
+	transactionid NUMBER(6),
+   	requester VARCHAR(30),
+  	responder VARCHAR(30),
+	customer_emailid VARCHAR(60),
+	seat_count NUMBER(6),
+  	travel_source VARCHAR2(30),
+  	travel_destination VARCHAR2(30),
+	travel_date DATE,
+	quote NUMBER(6),
+ 	request_date DATE,
+ 	response_date DATE,
+  	status VARCHAR2(20));
+
+INSERT INTO airline_common_transactions (transactionid, requester, responder, customer_emailid, seat_count, travel_source, travel_destination, travel_date, quote, request_date, status) VALUES(100000, 'Delta Airlines', 'Kingfisher Airlines', 'aditi@buffalo.edu', 2, 'Mumbai', 'Pune', '5-MAY-19', 1200, SYSDATE, 'REQUESTED');
+
+INSERT INTO airline_common_transactions (transactionid, requester, responder, customer_emailid, seat_count, travel_source, travel_destination, travel_date, quote, request_date, status) VALUES(100001, 'Kingfisher Airlines', 'Delta Airlines', 'ram@buffalo.edu', 1, 'Mumbai', 'Pune', '10-MAY-19', 750, SYSDATE, 'REQUESTED');
+commit;

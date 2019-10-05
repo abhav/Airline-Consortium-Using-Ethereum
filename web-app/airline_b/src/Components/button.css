@@ -1,0 +1,30 @@
+.button{
+	border-style: none;
+	height: 20px;
+	width: 100%;
+	margin-top: 0%;
+	margin-bottom: 0%;
+	background-color: black;
+	color: white;
+	font-size: 0.9vw;
+}
+.button:hover{
+	cursor: pointer;
+	background-color: white;
+	color: black;
+}
+
+.selected{
+	background-color: white;
+	color: black;
+}
+
+.selected:hover{
+	cursor: pointer;
+	background-color: black;
+	color: white;
+}
+
+.no-margin{
+	margin: 0px, 0px, 0x, 0px;
+}

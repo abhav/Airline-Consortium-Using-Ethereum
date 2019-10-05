@@ -1,0 +1,14 @@
+.notification-slot{
+	display: grid;
+	grid-template-columns: 80% 10% 10%;
+	background-color: white;
+	font-size: 15px;
+	padding: 10px;
+	margin: 10px;
+}
+.auto-to-right{
+	margin-left: auto;
+}
+.space-between{
+	margin-left: 5px;
+}

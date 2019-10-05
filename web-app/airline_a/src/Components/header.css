@@ -1,0 +1,32 @@
+.header{
+	display: flex;
+	flex-direction: row;
+	background-color: black;
+	color: white;
+	padding: 1vw 1vw 1vw 1vw;
+	position: fixed;
+	width: 100%;
+	justify-content: center;
+	height: 2vh;
+}
+.set-auto-margin{
+	margin-left: auto;
+}
+.side-margin5{
+	margin: 0px 25px 0px 10px;
+}
+.left-margin-20{
+	margin-left: 12%;
+}
+.right-margin{
+	margin-right: 15%;
+}
+.glow-red{
+	
+}
+.glow-red:hover{
+	color: red;
+}
+.pn-right-margin{
+	margin-right: 1rem;
+}

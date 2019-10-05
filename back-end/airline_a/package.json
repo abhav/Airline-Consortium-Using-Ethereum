@@ -1,0 +1,29 @@
+{
+  "name": "airline_a",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  },
+  "dependencies": {
+    "body-parse": "^0.1.0",
+    "body-parser": "^1.18.3",
+    "check-node-version": "^4.0.1",
+    "cors": "^2.8.5",
+    "crypto-js": "^3.1.9-1",
+    "express": "^4.16.4",
+    "ganache-cli": "^6.3.0",
+    "mongodb": "^3.2.4",
+    "oracledb": "^3.1.2",
+    "react": "^16.8.6",
+    "solc": "^0.4.25",
+    "web3": "^0.20.7"
+  }
+}

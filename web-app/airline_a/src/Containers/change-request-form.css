@@ -1,0 +1,25 @@
+.request-form{
+	display: grid;
+  	grid-template-columns: 10% 40% 40% 10%;
+  	border: 1px;
+  	font-size: 1.2vw;
+}
+
+.center{
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+
+.top-margin{
+	margin-top: 10%;
+}
+.title{
+	font-family: cursive;  
+	background-color: black;
+	color: red;
+}
+.ack-message{
+	font-family: cursive; 
+	font-size: 1.2vw; 
+}
